@@ -102,6 +102,41 @@ class dispense(Pipetting):
             self.liquidClass = self.liquidClass[1]
         return Pipetting.validate_arg(self)
 
+class mix_redefine(Pipetting):
+
+    def __init__(self,  tipMask     = None,
+                        liquidClass = None,
+                        volume      = def_vol,
+                        labware     = None,
+                        spacing     = 1,
+                        wellSelection= None,
+                        LoopOptions = def_LoopOp,
+                        RackName    = None,
+                        Well        = None,
+                        arm         = None,
+                        cycles      = 1):
+        logging.info("mix redefine with val"+str(cycles))
+        Pipetting.__init__(self, 'Mix',
+                            tipMask,
+                            liquidClass,
+                            volume,
+                            labware,
+                            spacing,
+                            wellSelection,
+                            LoopOptions,
+                            RackName,
+                            Well,
+                            arm, cycles=cycles )
+
+    @staticmethod
+    def action():
+        return EvoScriPy.robot.Arm.Mix
+
+    def validate_arg(self):
+        if isinstance(self.liquidClass, tuple):
+            assert len(self.liquidClass) == 2
+            self.liquidClass = self.liquidClass[1]
+        return Pipetting.validate_arg(self)
 
 class mix(Pipetting):
     """ A.15.4.3 Mix (Worklist: Mix)

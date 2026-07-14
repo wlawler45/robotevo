@@ -1,0 +1,227 @@
+Prefill a plate with some dilutions of two master mix and Buffer Reagent for 1 samples.
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [2] into Place[grid:14 site:2] in order [1]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [11] into Place[grid:14 site:2] in order [1]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [19] into Place[grid:14 site:2] in order [1]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [25] into Place[grid:14 site:2] in order [1]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [33] into Place[grid:14 site:2] in order [1]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [43] into Place[grid:14 site:2] in order [1]:
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [3] into Place[grid:14 site:2] in order [9]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [12] into Place[grid:14 site:2] in order [9]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [19] into Place[grid:14 site:2] in order [9]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [25] into Place[grid:14 site:2] in order [9]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [36] into Place[grid:14 site:2] in order [9]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [44] into Place[grid:14 site:2] in order [9]:
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [1] into Place[grid:14 site:2] in order [17]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [12] into Place[grid:14 site:2] in order [17]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [20] into Place[grid:14 site:2] in order [17]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [25] into Place[grid:14 site:2] in order [17]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [36] into Place[grid:14 site:2] in order [17]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [44] into Place[grid:14 site:2] in order [17]:
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [2] into Place[grid:14 site:2] in order [25]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [11] into Place[grid:14 site:2] in order [25]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [20] into Place[grid:14 site:2] in order [25]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [27] into Place[grid:14 site:2] in order [25]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [34] into Place[grid:14 site:2] in order [25]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [43] into Place[grid:14 site:2] in order [25]:
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [2] into Place[grid:14 site:2] in order [33]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [10] into Place[grid:14 site:2] in order [33]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [19] into Place[grid:14 site:2] in order [33]:
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [1] into Place[grid:14 site:2] in order [2]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [10] into Place[grid:14 site:2] in order [2]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [19] into Place[grid:14 site:2] in order [2]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [25] into Place[grid:14 site:2] in order [2]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [34] into Place[grid:14 site:2] in order [2]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [42] into Place[grid:14 site:2] in order [2]:
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [2] into Place[grid:14 site:2] in order [10]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [9] into Place[grid:14 site:2] in order [10]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [18] into Place[grid:14 site:2] in order [10]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [26] into Place[grid:14 site:2] in order [10]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [35] into Place[grid:14 site:2] in order [10]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [42] into Place[grid:14 site:2] in order [10]:
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [2] into Place[grid:14 site:2] in order [18]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [10] into Place[grid:14 site:2] in order [18]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [18] into Place[grid:14 site:2] in order [18]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [27] into Place[grid:14 site:2] in order [18]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [35] into Place[grid:14 site:2] in order [18]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [44] into Place[grid:14 site:2] in order [18]:
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [3] into Place[grid:14 site:2] in order [26]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [12] into Place[grid:14 site:2] in order [26]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [20] into Place[grid:14 site:2] in order [26]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [28] into Place[grid:14 site:2] in order [26]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [33] into Place[grid:14 site:2] in order [26]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [42] into Place[grid:14 site:2] in order [26]:
+
+Fill plate with mixes 
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [4] into Place[grid:14 site:2] in order [34]:
+
+    Transfer: 1.0 킠 from Pick
+        Transfer: 1.0 킠 from Pick [grid:14 site:1] in order [10] into Place[grid:14 site:2] in order [34]:
+Check: ['well 1[A01] in labware Pick:  with 102.0 uL of reagent HD1']
+Check: ['well 9[A02] in labware Pick:  with 103.0 uL of reagent HD2']
+Check: ['well 17[A03] in labware Pick:  with 104.0 uL of reagent HD3']
+Check: ['well 25[A04] in labware Pick:  with 100.0 uL of reagent HD4']
+Check: ['well 33[A05] in labware Pick:  with 102.0 uL of reagent HD5']
+Check: ['well 41[A06] in labware Pick:  with 104.0 uL of reagent HD6']
+Check: ['well 2[B01] in labware Pick:  with 99.0 uL of reagent NH1']
+Check: ['well 10[B02] in labware Pick:  with 100.0 uL of reagent NH2']
+Check: ['well 18[B03] in labware Pick:  with 102.0 uL of reagent NH3']
+Check: ['well 26[B04] in labware Pick:  with 103.0 uL of reagent NH4']
+Check: ['well 34[B05] in labware Pick:  with 102.0 uL of reagent NH5']
+Check: ['well 42[B06] in labware Pick:  with 101.0 uL of reagent NH6']
+Check: ['well 3[C01] in labware Pick:  with 102.0 uL of reagent NI1']
+Check: ['well 11[C02] in labware Pick:  with 102.0 uL of reagent NI2']
+Check: ['well 19[C03] in labware Pick:  with 100.0 uL of reagent NI3']
+Check: ['well 27[C04] in labware Pick:  with 102.0 uL of reagent NI4']
+Check: ['well 35[C05] in labware Pick:  with 102.0 uL of reagent NI5']
+Check: ['well 43[C06] in labware Pick:  with 102.0 uL of reagent NI6']
+Check: ['well 4[D01] in labware Pick:  with 103.0 uL of reagent NG1']
+Check: ['well 12[D02] in labware Pick:  with 101.0 uL of reagent NG2']
+Check: ['well 20[D03] in labware Pick:  with 101.0 uL of reagent NG3']
+Check: ['well 28[D04] in labware Pick:  with 103.0 uL of reagent NG4']
+Check: ['well 36[D05] in labware Pick:  with 102.0 uL of reagent NG5']
+Check: ['well 44[D06] in labware Pick:  with 101.0 uL of reagent NG6']
+Check: ['well 6[F01] in labware Pick:  with 104.0 uL of reagent pFUSB1']
+Check: ['well 14[F02] in labware Pick:  with 104.0 uL of reagent pFUSB2']
+Check: ['well 22[F03] in labware Pick:  with 104.0 uL of reagent pFUSB3']
+Check: ['well 30[F04] in labware Pick:  with 104.0 uL of reagent pFUSB4']
+Check: ['well 38[F05] in labware Pick:  with 104.0 uL of reagent pFUSB5']
+Check: ['well 46[F06] in labware Pick:  with 104.0 uL of reagent pFUSB6']
+Check: ['well 5[E01] in labware Pick:  with 104.0 uL of reagent pFUS_A1A']
+Check: ['well 13[E02] in labware Pick:  with 104.0 uL of reagent pFUS_A2A']
+Check: ['well 21[E03] in labware Pick:  with 104.0 uL of reagent pFUS_A2B']
+Check: ['well 29[E04] in labware Pick:  with 104.0 uL of reagent pFUS_A3A']
+Check: ['well 37[E05] in labware Pick:  with 104.0 uL of reagent pFUS_A3B']
+Check: ['well 45[E06] in labware Pick:  with 104.0 uL of reagent pFUS_A4A']
+Check: ['well 53[E07] in labware Pick:  with 104.0 uL of reagent pFUS_A4B']
+Check: ['well 1[A01] in labware Place:  with 6.0 uL of reagent TALLeft1']
+Check: ['well 9[A02] in labware Place:  with 6.0 uL of reagent TALLeft2']
+Check: ['well 17[A03] in labware Place:  with 6.0 uL of reagent TALLeft3']
+Check: ['well 25[A04] in labware Place:  with 6.0 uL of reagent TALLeft4']
+Check: ['well 33[A05] in labware Place:  with 3.0 uL of reagent TALLeft5']
+Check: ['well 2[B01] in labware Place:  with 6.0 uL of reagent TALRight1']
+Check: ['well 10[B02] in labware Place:  with 6.0 uL of reagent TALRight2']
+Check: ['well 18[B03] in labware Place:  with 6.0 uL of reagent TALRight3']
+Check: ['well 26[B04] in labware Place:  with 6.0 uL of reagent TALRight4']
+Check: ['well 34[B05] in labware Place:  with 2.0 uL of reagent TALRight5']

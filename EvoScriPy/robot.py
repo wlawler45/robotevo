@@ -38,6 +38,7 @@ class Arm:
     Aspirate    = 1        # Actions types
     Detect      = 0
     Dispense    = -1
+    Mix         = 2
 
     def __init__(self, n_tips, index, workingTips=None, tips_type=None): # index=Pipette.LiHa1
         """

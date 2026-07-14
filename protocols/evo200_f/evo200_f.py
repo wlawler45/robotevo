@@ -67,29 +67,29 @@ class Evo200_FLI (Protocol):
     def carrier_types(self):
         if Evo200_FLI._carrier_types is None:
             Evo200_FLI._carrier_types = labware.Carrier.Types(self.carrier_file)
-            self.allow_labware("DiTi 3Pos", ['DiTi 1000ul',
+            self.allow_labware("DiTi 3Pos", ['DiTi 1000ul', 
                                              '96 Well Microplate',
-                                             '96 Well DeepWell square'])
+                                             '96 Well DeepWell square','DiTi 50ul Filter LiHa'])
             self.allow_labware("MP 3Pos", ['DiTi 1000ul',
                                            '96 Well Microplate',
                                            '96 Well DeepWell square',
-                                           "DiTi 200 ul"])
-            self.allow_labware("AntiCOntaminationFlyway", "AntiCOntamination")
+                                           "DiTi 200 ul","96 Well PCR PlateWL-2",'DiTi 50ul Filter LiHa'])
+            #self.allow_labware("AntiCOntaminationFlyway", "AntiCOntamination")
             self.allow_labware("Tube Eppendorf 16 Pos", "Sampletubes Eppendorfrack")
             self.allow_labware("Washstation 2Grid Trough DiTi", ['Washstation 2Grid Cleaner short',
                                                                  'Washstation 2Grid Cleaner long',
                                                                  'Washstation 2Grid Waste',
                                                                  'Washstation 2Grid DiTi Waste',
                                                                  'Trough 100ml'])
-            self.allow_labware("Tube 16 mm 10 Pos", "Tube Falcon 15ml 12 Pos")
-            self.allow_labware("Agowa MaxiSep 7200", "96 Well Separation Plate")
+            #self.allow_labware("Tube 16 mm 10 Pos", "Tube Falcon 15ml 12 Pos")
+            #self.allow_labware("Agowa MaxiSep 7200", "96 Well Separation Plate")
             self.allow_labware("Te-VacS", "96 Well Macherey-Nagel Plate")
             self.allow_labware("MP 3Pos Cooled", "FilterplateaufElutionplate flach")
             self.allow_labware("MP 3Pos Cooled", "96 Well 8er Macherey-Nagel flach")
             self.allow_labware("Trough 3Pos 25+100ml", "Trough 100ml")
             self.allow_labware("MP 3Pos Cooled", "96 Well Microplate")
             #self.allow_labware()
-
+            #print(Evo200_FLI._carrier_types)
         return Evo200_FLI._carrier_types
 
     def set_defaults(self):
@@ -109,12 +109,12 @@ class Evo200_FLI (Protocol):
         self.Std_liquidClass = self.Water_free  # or "Water free dispense DiTi 1000"
         self.Small_vol_disp = self.get_liquid_class("Water wet")  # or "Water free Low Volume"  ??
 
-        wt.def_DiTi_type       = labware.DiTi_1000ul                 # this is a type, the others are labwares
+        wt.def_DiTi_type       = labware.DiTi_50ul_SBS                 # this is a type, the others are labwares
 
-        WashCleanerS    = wt.get_labware("Cleaner1", labware.CleanerSWS)
-        WashWaste       = wt.get_labware("Waste", labware.WasteWS)
-        WashCleanerL    = wt.get_labware("Cleaner2", labware.CleanerLWS)
-        DiTiWaste       = wt.get_labware("DiTi Waste", labware.DiTi_Waste)
+        WashCleanerS    = wt.get_labware("", labware.CleanerShallow)
+        WashWaste       = wt.get_labware("", labware.WasteWash)
+        WashCleanerL    = wt.get_labware("", labware.CleanerDeep)
+        DiTiWaste       = wt.get_labware("Tip Waste", labware.Diti_Waste_3pos)
 
         wt.def_WashWaste   = WashWaste
         wt.def_WashCleaner = WashCleanerS

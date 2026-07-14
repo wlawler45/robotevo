@@ -373,6 +373,8 @@ class WorkTable:
 
             else:     # we have read the types first, now we need to read the labwares labels
                 carrier_type_idx = self.carriers_grid[grid_num]
+                print(carrier_type_idx)
+                print(grid_num)
                 carrier_type = robot_protocol.carrier_types().by_index[carrier_type_idx]
                 assert len(labware_types) == carrier_type.n_sites
                 carrier = Carrier(carrier_type=carrier_type, grid=grid_num, worktable=self)
@@ -1682,6 +1684,7 @@ EppRack6x16_2mL = Labware.Type("Tube Eppendorf 2m 6x 16 Pos",      16, 6,  max_v
 DiTi_1000ul     = DITIrackType("DiTi 1000ul",                       max_vol=     940)  # 940 ??
 DiTi_1000ul_SBS = DITIrackType("DiTi 1000ul SBS LiHa",              max_vol=     940)  # 940 ??
 DiTi_200ul_SBS  = DITIrackType("DiTi 200ul SBS LiHa",               max_vol=     200)  # 190 ??
+DiTi_50ul_SBS  = DITIrackType("DiTi 50ul Filter LiHa",               max_vol=     50) 
 DiTi_10ul_SBS   = DITIrackType("DiTi 10ul SBS LiHa",                max_vol=      10)  # 0 9,5 ??
 DiTi_200ul_MCA96= DITIrackType("DiTi 200ul SBS MCA96",              max_vol=     200)  # 190 ?? \todo derived ?
 DiTi_0200ul     = DITIrackType("DiTi 200 ul",                       max_vol=     190)  # ??
@@ -1694,17 +1697,18 @@ Tip_200maxVol   = 190                   # TODO revise
 CleanerShallow  = CuvetteType("Wash Station Cleaner shallow"   , 8, max_vol=  100000)
 WasteWash       = CuvetteType("Wash Station Waste",              8, max_vol=10000000)  # 10 L
 CleanerDeep     = CuvetteType("Wash Station Cleaner deep",       8, max_vol=  100000)
+Diti_Waste_3pos = DITIwasteType("DiTi Waste 3 Pos")
 DiTi_Waste_plate= DITIwasteType("DiTi Nested Waste MCA384")  # Tip Waste ?? Washstation 2Grid DiTi Waste ?? DiTi Nested Waste MCA384 ?? DiTi Waste
 
 # Evo100_FLI
-CleanerSWS      = CuvetteType("Washstation 2Grid Cleaner short", 8, max_vol=  100000)
+#CleanerSWS      = CuvetteType("Washstation 2Grid Cleaner short", 8, max_vol=  100000)
 WasteWS         = CuvetteType("Washstation 2Grid Waste",         8, max_vol=10000000)  # 10 L
 CleanerLWS      = CuvetteType("Washstation 2Grid Cleaner long",  8, max_vol=  100000)
 DiTi_Waste      = DITIwasteType("Washstation 2Grid DiTi Waste")
 TeMag48         = Labware.Type("Tube Eppendorf 48 Pos",          8, 6,   max_vol=    1500)
 
 # Evo200_FLI
-# CleanerSWS      = CuvetteType("Washstation 2Grid Cleaner short", 8, max_vol=  100000)  # Cleaner1
+CleanerSWS      = CuvetteType("Washstation 2Grid Cleaner short", 8, max_vol=  100000)  # Cleaner1
 # WasteWS         = CuvetteType("Washstation 2Grid Waste",         8, max_vol=10000000)  # Waste       10 L
 # CleanerLWS      = CuvetteType("Washstation 2Grid Cleaner long",  8, max_vol=  100000)  # Cleaner2
 # DiTi_Waste      = DITIwasteType("Washstation 2Grid DiTi Waste")                       # DiTi Waste
@@ -1719,7 +1723,7 @@ MP96MNflach       = Labware.Type("96 Well 8er Macherey-Nagel flach", 8, 12, max_
 # ContaminationFlyway  = Carrier.Type("AntiCOntaminationFlyway"        , width=1, n_sites=40, idx=107)
 # EppCarr16po          = Carrier.Type("Tube Eppendorf 16 Pos"          , width=1, n_sites=16, idx=43 )
 # Washs2GridTroughDiTi = Carrier.Type("Washstation 2Grid Trough DiTi"  , width=2, n_sites=8 , idx=104)
-
+#BioshakeMove=Labware.Type("BioshakeMove mqo",3,3,323)
 
 MP96well     = Labware.Type("96 Well Microplate"     , 8, 12, max_vol= 200)
 MP96deepwell = Labware.Type("96 Well DeepWell square", 8, 12, max_vol=2000)    # todo define in Evoware !!!
@@ -1728,6 +1732,7 @@ BioRad96well = Labware.Type("96 Well BioRad"         , 8, 12, max_vol= 100)
 
 Box9x9       = Labware.Type("Box 9x9"                , 9,  9, max_vol= 2000)
 Box10x10     = Labware.Type("Box 10x10"              ,10, 10, max_vol= 2000)
+PCR96wellWL     = Labware.Type("96 Well PCR PlateWL-2"     , 8, 12, max_vol= 200)
 
 
 def getLabware(labw_type, label, worktable=None):

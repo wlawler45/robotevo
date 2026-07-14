@@ -14,6 +14,12 @@ Implement a GUI that automatically detect available protocols.
 
 __author__ = 'qPCR4vir'
 
+import sys
+from pathlib import Path
+
+# Automatically finds the 'external/repo_name' folder relative to this file
+#sys.path.append(str(Path(__file__).parent / "external" / "robot_evo"))
+print(sys.path)
 
 import tkinter
 from tkinter.filedialog import askopenfilename

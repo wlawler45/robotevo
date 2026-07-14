@@ -183,7 +183,8 @@ class Pipette(Instruction):
                  LoopOptions              = None,        # todo how to model???
                  RackName                 = None,        # todo I need to this???
                  Well                     = None,        # todo I need to this???
-                 arm                      = LiHa1):      # set this as def
+                 arm                      = LiHa1,
+                 cycles=1):      # set this as def
         """
         Set labware to match wells.
 
@@ -219,6 +220,7 @@ class Pipette(Instruction):
         self.loopOptions        = LoopOptions
         self.RackName           = RackName
         self.Well               = Well
+        self.cycles             = cycles
         # noOfLoopOptions,
         # loopName,
         # action,
@@ -270,7 +272,10 @@ class Pipette(Instruction):
         self.arg += [Integer(self.labware.location.grid),                                      # arg 2
                      Integer(self.labware.location.site),                                      # arg 3
                      Integer(self.spacing),                                                    # arg 4
-                     String1(well_selection_str)]                                             # arg 5
+                     String1(well_selection_str)]
+        logging.info("I'm right before cycles with val"+str(self.cycles))
+        if(self.cycles>1):
+            self.arg += [Integer(self.cycles)]                                        # arg 5
         self.arg += [Integer(len(self.loopOptions))]                                           # arg 6
         for op in self.loopOptions:
             self.arg += [String1(op.name),
@@ -303,8 +308,9 @@ class Pipetting(Pipette):
                  LoopOptions = None,
                  RackName    = None,
                  Well        = None,
-                 arm         = None):
-
+                 arm         = None,
+                 cycles      = 1):
+        logging.info("In pipetting with cycles:"+str(cycles))
         Pipette.__init__(self, name,
                          tipMask     = tipMask,
                          labware     = labware,
@@ -313,7 +319,8 @@ class Pipetting(Pipette):
                          LoopOptions = LoopOptions,
                          RackName    = RackName,
                          Well        = Well,
-                         arm         = arm)
+                         arm         = arm,
+                         cycles      =cycles)
 
         self.liquidClass = liquidClass                                     # todo reagent.LC ?
         self.volume      = volume if volume is not None else def_vol

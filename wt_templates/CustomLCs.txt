@@ -1,0 +1,23 @@
+>> Buffer << 10	General liquid class for most pipetting devices and tip types	
+>> Buffer << 11	General liquid class for most pipetting devices and tip types	
+>> Buffer << 12	General liquid class for most pipetting devices and tip types	
+>> Buffer << 13	General liquid class for most pipetting devices and tip types	
+>> Buffer << 14	General liquid class for most pipetting devices and tip types	
+>> Buffer << 15	General liquid class for most pipetting devices and tip types	
+>> Buffer << 16	General liquid class for most pipetting devices and tip types	
+>> Buffer << 17	General liquid class for most pipetting devices and tip types	
+>> Buffer << 18	General liquid class for most pipetting devices and tip types	
+>> Buffer << 19	General liquid class for most pipetting devices and tip types	
+>> Buffer << 20	General liquid class for most pipetting devices and tip types	
+>> Buffer << 21	General liquid class for most pipetting devices and tip types	
+>> Buffer << 22	General liquid class for most pipetting devices and tip types	
+>> Buffer << 23	General liquid class for most pipetting devices and tip types	
+>> Buffer << 24	General liquid class for most pipetting devices and tip types	
+>> Buffer << 7	General liquid class for most pipetting devices and tip types	
+>> Buffer << 8	General liquid class for most pipetting devices and tip types	
+>> Buffer << 9	General liquid class for most pipetting devices and tip types	
+BD Artel	General liquid class for most pipetting devices and tip types	
+Buffer	General liquid class for most pipetting devices and tip types	
+ED Buffer	Drawing from plate, not resovoir	
+System Liquid	Aspirate and dispense System Liquid with the LiHa	
+test	General liquid class for most pipetting devices and tip types	

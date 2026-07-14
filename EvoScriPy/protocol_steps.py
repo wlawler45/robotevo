@@ -657,6 +657,15 @@ class Protocol (Executable):
         v[tip] = vol
         instructions.dispense(robot.mask_tip[tip], reagent.def_liq_class, v, reagent.labware).exec()
 
+    def mix_one(self,tip,reagent, vol=None, cycles=1):
+        if vol is None:
+            vol = reagent.min_vol()    # todo: revise !!
+
+        v = [0] * self.robot.cur_arm().n_tips
+        v[tip] = vol
+        reagent.autoselect()                                         # reagent.labware.selectOnly([reagent.pos])
+        instructions.mix_redefine(robot.mask_tip[tip], reagent.def_liq_class, v, reagent.labware,cycles=cycles).exec()
+
     def mix(self,
             in_labware_region : labware.Labware,
             using_liquid_class: str        = None,
